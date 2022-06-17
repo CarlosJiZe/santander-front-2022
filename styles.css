@@ -17,7 +17,7 @@ button{
 }
 
 .header{
-    margin: 40px 20px 0;
+    margin: 40px 20px 10px;
     font-size: 0;
     height: 45px;
     font-family: sans-serif;    
@@ -28,6 +28,8 @@ li{
     margin-right: 25px;
     margin-left: 25px;
 }
+
+
 /* Todos los hijos del header es > * */
 .header > *{
     display: inline-block;
@@ -50,6 +52,7 @@ li{
     text-align: left;
     color: #025157;
     font-weight: 500;
+    
 }
 
 .actions{
@@ -83,3 +86,57 @@ li{
     border: 0;
     border-radius: 5px;
   }
+
+  .publish {
+    /* container styles if any */
+    margin-left: 30px;
+  }
+  
+  .publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+  }
+  
+  .publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .publish > form {
+    display: flex;
+  }
+  
+  .publish > form p {
+    color: #025157;
+    margin-right: 18px;
+  }
+
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+  }
+
+.fixed-header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
